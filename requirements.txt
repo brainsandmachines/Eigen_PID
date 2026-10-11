@@ -1,0 +1,5 @@
+# Eigen-PID (installed from this repository)
+-e .
+
+# Runtime dependency
+torch>=2.5,<3

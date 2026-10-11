@@ -1,0 +1,9 @@
+# Install the core package separately: python -m pip install -e .
+numpy
+matplotlib>=3.8
+pandas
+nilearn>=0.12
+gdown==6.4.1
+requests
+tqdm
+seaborn>=0.13.2,<0.14

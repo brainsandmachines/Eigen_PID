@@ -1,0 +1,60 @@
+{
+  "solver": "thin",
+  "subject": 6,
+  "target": "lh_hV4",
+  "dimensions": [
+    434,
+    1237,
+    1251
+  ],
+  "input_sha256": "2199db3624bb6aa469b801ccff51f5a070900dc7e1c66d20efac379159355c78",
+  "dtype": "float64",
+  "threads": 20,
+  "adapter": "gaussian_utility_shim",
+  "commit": "4a30b1a3ff3eb9d181fc49dff023930a617a86b3",
+  "numpy": "2.4.6",
+  "scipy": "1.17.1",
+  "libraries": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 20,
+      "prefix": "libscipy_openblas",
+      "version": "0.3.31.188.0",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 20,
+      "prefix": "libscipy_openblas",
+      "version": "0.3.30",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    }
+  ],
+  "status": "completed",
+  "started_at": 1791155049.6654387,
+  "elapsed_seconds": 1085.3976578500005,
+  "seconds": 1085.3976578500005,
+  "finished_at": 1791156135.0635183,
+  "values": {
+    "mix": 119.87613380392119,
+    "miy": 116.94614544859861,
+    "mixy": 215.9316820341761,
+    "union_info": 149.71057466227086,
+    "objective": 149.71057466335907,
+    "uix": 32.764429213672244,
+    "uiy": 29.834440858349666,
+    "red": 87.11170459024896,
+    "syn": 66.22110737190525
+  },
+  "atom_differences": {
+    "uix": 0.0042539452254715115,
+    "uiy": 0.004253944998865222,
+    "red": -0.004253945238758661,
+    "syn": -0.004280567100835242
+  },
+  "max_atom_difference": 0.004280567100835242
+}

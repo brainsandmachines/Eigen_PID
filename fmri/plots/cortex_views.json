@@ -1,0 +1,26 @@
+{
+  "subject": 1,
+  "mesh": "fsaverage",
+  "surface": "inflated",
+  "coordinate_system": "RAS",
+  "elevation": -45,
+  "azimuth": -90,
+  "roll": 0,
+  "hemisphere_gap": 8,
+  "screen_left": "anatomical left",
+  "screen_top": "posterior",
+  "colors": {
+    "Left V1": "#2878B5",
+    "Left hV4": "#7B4FA3",
+    "Right V1": "#D78024",
+    "Right hV4": "#29966F"
+  },
+  "vertices_per_hemisphere": 163842,
+  "label_gap_points": 6,
+  "lighting": {
+    "azimuth": 315,
+    "altitude": -55,
+    "specular": 0.28,
+    "shininess": 28
+  }
+}

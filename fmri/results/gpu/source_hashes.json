@@ -1,0 +1,20 @@
+{
+  "src/eigen_pid/tolerances.py": "780ee0af6c35e91a9b70cfc3921b20d2cc2cd642281e98e5181a705a2bf8593b",
+  "src/eigen_pid/debias_eigen_pid.py": "e596beaaaace334e84f1d4392150f372d4d7121a1dc787f65f7871a0260dab22",
+  "src/eigen_pid/__init__.py": "204183e5442137cf4ab797fda0bcf81b13e9544d0edaa72f22fd8f6486b40f3b",
+  "src/eigen_pid/eigen_pid.py": "b536a6a82b5beca73bab4c8e91a7e75dfef801f3cb9f5bbac75c234a4406b20c",
+  "src/eigen_pid/linalg.py": "6bb83147c132f4769663dfebed9526ec11bfdcb3631aa337195aec56f1e08752",
+  "fmri/code/plot_cortex.py": "860672f135fbd09190e1756b5524ad2e46cb5f2cd249623f5c96ffd8f2eb5665",
+  "fmri/code/benchmark_reference_pid.py": "18526761a3dfa4dda2652dd6d4ade7169f9b8712ed4a2553fef770890f4d752b",
+  "fmri/code/reference_solvers.py": "4eaa9c15fdc7dc3de24731f82e66327df7617d339ba6c603643bcce695b0dd84",
+  "fmri/code/read_estimates.py": "66cda2511bd42cf95fdc6470fe9c40605d0b79e2811d46ad4467cd42ce3ed6c9",
+  "fmri/code/run_experiment.py": "52022ceeab47d25de3c4bf00b74b51ec66813c258fa9676adb8cc681f2421e79",
+  "fmri/code/validate_debiasing.py": "c0c35c86926a3b4a474f2b7f0faf7bab5a73a278035832bf2715d98e8b066cc1",
+  "fmri/code/result_io.py": "40243d8113b94bd7b0ebca10c3c32fbc2a13de249f90fddd92b80e930ef3205b",
+  "fmri/code/download_algonauts.py": "6a23ae4073bde481d27bc864f51a9b661e802b88e1b03619ac4c1500549bc2e1",
+  "fmri/code/plot_results.py": "8c3c5a6e30796d6dd07e873a299b3be41b815e110fbeceaaca0e00671e79e471",
+  "fmri/code/export_numbers.py": "95fe8129127a9db46afc8f2c8a5d5a99cde5cb3c276a16bffe033043637f72cf",
+  "fmri/code/summarize_results.py": "4e1ae389b4a8ae1ff7bcec2a712305a8abadd8c23c073c61357450173faab33a",
+  "fmri/code/run_thin_benchmarks.py": "d0348f1a0a474bf5df20077344703c79b1d0ead59a077e8f90b3e9d433cba830",
+  "fmri/code/nsd_reader.py": "ebd77c6b7bd8caa06888e6a5249161c9a318b3791ad4685f27a350a57fab0f37"
+}

@@ -1,0 +1,15 @@
+\begin{threeparttable}
+\begin{tabular}{lrrrr}
+\toprule
+\multirow{2}{*}{\textbf{Target}} & \multicolumn{2}{c}{\textbf{Single call} (seconds)} & \multicolumn{2}{c}{\textbf{Complete analysis} (minutes)} \\
+ & Eigen-PID & Thin-PID & Eigen-PID & Thin-PID \\
+\midrule
+Left hV4 & 0.92 & 2,645.38 & 7.20 & 14,461.43{\tnote{\dag}} \\
+Right hV4 & 0.29 & 2,835.40 & 7.29 & 15,500.20{\tnote{\dag}} \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]
+\footnotesize
+\item[\dag] Conservative projections obtained by multiplying the mean single-call time across all eight participants by 328, excluding the time to generate resampled datasets and estimate their covariances.
+\end{tablenotes}
+\end{threeparttable}

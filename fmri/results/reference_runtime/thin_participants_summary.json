@@ -1,0 +1,18 @@
+{
+  "updated_at": 1791235876.0244434,
+  "targets": [
+    {
+      "target": "lh",
+      "completed": 8,
+      "required": 8,
+      "total_projected_minutes": 14461.432090430837
+    },
+    {
+      "target": "rh",
+      "completed": 8,
+      "required": 8,
+      "total_projected_minutes": 15500.200065461884
+    }
+  ],
+  "projection_assumption": "Recorded evaluation count times each participant/target single-call time; excludes surrogate generation and covariance fitting."
+}

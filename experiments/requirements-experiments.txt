@@ -1,0 +1,9 @@
+# Eigen-PID and its runtime dependency
+-r ../requirements.txt
+
+# Experiment and plotting dependencies
+matplotlib>=3.8,<4
+numpy>=1.26,<3
+pandas>=2.1,<4
+PyYAML>=6,<7
+scipy>=1.11,<2

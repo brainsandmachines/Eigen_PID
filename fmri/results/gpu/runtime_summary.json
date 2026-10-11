@@ -1,0 +1,6 @@
+{
+  "source": "cases/subj*_{lh,rh}_real_0.json: timings.total",
+  "cases": 16,
+  "pid_evaluations": 656,
+  "total_seconds": 231.36740693004685
+}

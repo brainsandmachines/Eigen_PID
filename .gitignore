@@ -1,0 +1,27 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+/FUNCTION_REGISTRY.md
+build/
+dist/
+*.egg-info/
+.DS_Store
+*~
+sbatches/
+cluster_instruction.txt/
+
+# Large local data and transient experiment logs
+fmri/**/*.npy
+fmri/**/*.npz
+fmri/**/*.log
+fmri/results/job.json
+
+# Transient fMRI queue state
+fmri/results/*audit.json
+fmri/results/reference_runtime/thin_queue*
+fmri/results/reference_runtime/overnight_job.json

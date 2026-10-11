@@ -1,0 +1,16 @@
+{
+  "captured_utc": "2026-10-06T06:42:19.490671+00:00",
+  "cpu_model": "Intel(R) Core(TM) Ultra 7 265K",
+  "sockets": 1,
+  "physical_cores": 20,
+  "logical_cpus": 20,
+  "threads_per_core": 1,
+  "online_memory_bytes": 137438953472,
+  "online_memory_gib": 128.0,
+  "os_memory_total_kib": 131226192,
+  "analysis_threads": 20,
+  "analysis_device": "cuda",
+  "analysis_dtype": "float64",
+  "kernel": "Linux 7.0.0-34-generic",
+  "gpu_model": "NVIDIA GeForce RTX 5090"
+}

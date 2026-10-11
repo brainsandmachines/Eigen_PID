@@ -1,0 +1,6 @@
+# Optional dependencies for the external Gaussian reference solvers.
+numpy
+scipy
+cvxpy
+matplotlib
+threadpoolctl

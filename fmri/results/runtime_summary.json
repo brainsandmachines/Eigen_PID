@@ -1,0 +1,47 @@
+{
+  "workloads": [
+    {
+      "condition": "real",
+      "target": "lh",
+      "cases": 8,
+      "total_seconds": 431.8012275719666,
+      "mean_seconds": 53.975153446495824,
+      "median_seconds": 52.43922899149766,
+      "min_seconds": 29.546074687998043,
+      "max_seconds": 90.1990029590088
+    },
+    {
+      "condition": "real",
+      "target": "rh",
+      "cases": 8,
+      "total_seconds": 437.35599975902005,
+      "mean_seconds": 54.669499969877506,
+      "median_seconds": 51.96370108850533,
+      "min_seconds": 42.239075227000285,
+      "max_seconds": 75.94778519900865
+    },
+    {
+      "condition": "shuffled",
+      "target": "lh",
+      "cases": 8,
+      "total_seconds": 382.01971690999926,
+      "mean_seconds": 47.75246461374991,
+      "median_seconds": 45.73719252999581,
+      "min_seconds": 26.044653904013103,
+      "max_seconds": 84.57068537999294
+    },
+    {
+      "condition": "shuffled",
+      "target": "rh",
+      "cases": 8,
+      "total_seconds": 412.95540048601106,
+      "mean_seconds": 51.61942506075138,
+      "median_seconds": 53.968687458502245,
+      "min_seconds": 26.544151220005006,
+      "max_seconds": 82.08391596999718
+    }
+  ],
+  "shuffled_replicate": 1,
+  "reference_timings": "reference_runtime/thin_participants.csv",
+  "projection_assumption": "Recorded evaluation count times each participant/target's measured Thin-PID runtime; excludes surrogate generation and covariance fitting."
+}

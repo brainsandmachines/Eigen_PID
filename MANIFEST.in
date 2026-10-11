@@ -1,0 +1,4 @@
+prune experiments
+prune fmri
+recursive-include basic_usage *.py
+include LICENSE THIRD_PARTY_NOTICES.md

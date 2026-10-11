@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eigen_pid"
+version = "1.0.0"
+description = "Closed-form Torch eigenvalue-based Gaussian BROJA PID"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [{name = "Ohad Sheelo"}, {name = "Tal Golan"}, {name = "Ari Pakman"}]
+dependencies = [
+    "torch>=2.5,<3",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10", "numpy", "scipy", "scikit-learn"]
+dev = [
+    "pytest>=8,<10",
+]
+experiments = [
+    "matplotlib>=3.8,<4",
+    "numpy>=1.26,<3",
+    "pandas>=2.1,<4",
+    "PyYAML>=6,<7",
+    "scipy>=1.11,<2",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["eigen_pid", "eigen_pid.*"]
+exclude = ["experiments*", "fmri*"]
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+pythonpath = ["src"]
+testpaths = ["tests"]
+markers = [
+    "external: uses bundled reference solvers",
+    "slow: expensive numerical or benchmark test",
+]

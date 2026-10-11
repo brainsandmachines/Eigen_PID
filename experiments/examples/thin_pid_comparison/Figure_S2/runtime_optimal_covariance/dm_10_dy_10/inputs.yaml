@@ -1,0 +1,17 @@
+dimensions:
+  - 2
+  - 4
+  - 8
+  - 16
+  - 32
+  - 64
+vary: X
+dm: 10
+dx: 2
+dy: 10
+trials: 1000
+seed_start: 0
+resume: true
+percentiles:
+  - 25
+  - 75
