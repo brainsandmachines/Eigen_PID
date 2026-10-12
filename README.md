@@ -2,6 +2,10 @@
   <img src="assets/eigen-pid.webp" alt="Eigen-PID logo" width="480">
 </p>
 
+<p align="center">
+  <a href="https://arxiv.org/abs/2610.13464">Read the paper</a>
+</p>
+
 Eigen-PID calculates the bivariate population-Gaussian BROJA partial
 information decomposition (PID). It separates the information that two
 sources, `X` and `Y`, carry about a target, `M`, into:
@@ -13,26 +17,6 @@ sources, `X` and `Y`, carry about a target, `M`, into:
 
 The implementation uses PyTorch and supports CPU and CUDA tensors. Information
 values are returned in bits.
-
-## Paper and citation
-
-If you use Eigen-PID in your research, please cite:
-
-Sheelo, O., Golan, T., & Pakman, A. (2026). *Gaussian BROJA Partial Information
-Decomposition in Closed Form*. arXiv:2610.13464.
-https://arxiv.org/abs/2610.13464
-
-```bibtex
-@misc{sheelo2026gaussianbroja,
-  title         = {Gaussian {BROJA} Partial Information Decomposition in Closed Form},
-  author        = {Sheelo, Ohad and Golan, Tal and Pakman, Ari},
-  year          = {2026},
-  eprint        = {2610.13464},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.IT},
-  url           = {https://arxiv.org/abs/2610.13464}
-}
-```
 
 ## Install Eigen-PID for your own calculations
 
@@ -314,6 +298,26 @@ or to rerun the analysis from data.
 
 Only `src/eigen_pid/` becomes an importable package when Eigen-PID is installed.
 The experiment tree remains repository source used for research reproduction.
+
+## Citation
+
+If you use Eigen-PID in your research, please cite:
+
+Sheelo, O., Golan, T., & Pakman, A. (2026). *Gaussian BROJA Partial Information
+Decomposition in Closed Form*. arXiv:2610.13464.
+https://arxiv.org/abs/2610.13464
+
+```bibtex
+@misc{sheelo2026gaussianbroja,
+  title         = {Gaussian {BROJA} Partial Information Decomposition in Closed Form},
+  author        = {Sheelo, Ohad and Golan, Tal and Pakman, Ari},
+  year          = {2026},
+  eprint        = {2610.13464},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.IT},
+  url           = {https://arxiv.org/abs/2610.13464}
+}
+```
 
 ## License and attribution
 
