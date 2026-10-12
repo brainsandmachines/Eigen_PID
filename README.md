@@ -14,6 +14,26 @@ sources, `X` and `Y`, carry about a target, `M`, into:
 The implementation uses PyTorch and supports CPU and CUDA tensors. Information
 values are returned in bits.
 
+## Paper and citation
+
+If you use Eigen-PID in your research, please cite:
+
+Sheelo, O., Golan, T., & Pakman, A. (2026). *Gaussian BROJA Partial Information
+Decomposition in Closed Form*. arXiv:2610.13464.
+https://arxiv.org/abs/2610.13464
+
+```bibtex
+@misc{sheelo2026gaussianbroja,
+  title         = {Gaussian {BROJA} Partial Information Decomposition in Closed Form},
+  author        = {Sheelo, Ohad and Golan, Tal and Pakman, Ari},
+  year          = {2026},
+  eprint        = {2610.13464},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.IT},
+  url           = {https://arxiv.org/abs/2610.13464}
+}
+```
+
 ## Install Eigen-PID for your own calculations
 
 Install directly from GitHub:
